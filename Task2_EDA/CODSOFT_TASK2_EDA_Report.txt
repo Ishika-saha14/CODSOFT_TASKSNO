@@ -1,0 +1,55 @@
+
+TITANIC PASSENGER SURVIVAL
+EXPLORATORY DATA ANALYSIS (EDA) REPORT
+
+1. OBJECTIVE
+Analyze Titanic passenger data to understand survival patterns,
+passenger characteristics, and unusual values.
+
+2. DATASET OVERVIEW
+Total records analyzed: 784
+Number of columns: 16
+Average passenger age: 29.65
+Median passenger age: 28.25
+Average ticket fare: 34.71
+
+3. KEY FINDINGS
+Passengers who survived: 323
+Passengers who did not survive: 461
+Overall survival rate: 41.20%
+
+Survival rate by gender:
+sex
+female    74.06
+male      21.59
+
+Survival rate by passenger class:
+pclass
+1    63.08
+2    50.91
+3    25.68
+
+4. OUTLIER ANALYSIS
+Potential age outliers (IQR method): 39
+Potential fare outliers (IQR method): 102
+Highest ticket fare: 512.33
+
+Outliers are potential unusual observations and are not
+automatically errors. They should be investigated in context.
+
+5. VISUALIZATIONS
+The analysis includes:
+- Passenger survival distribution
+- Survival rate by gender
+- Passenger age distribution
+- Survival rate by passenger class
+- Box plots for age and fare
+
+6. CONCLUSION
+The analysis summarizes survival outcomes and compares survival
+rates across gender and passenger class. Descriptive statistics
+and box plots help identify distributions and potential outliers.
+These results show associations and do not establish causation.
+
+7. TOOLS USED
+Python, Pandas, NumPy, Matplotlib
