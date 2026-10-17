@@ -1,0 +1,76 @@
+
+CUSTOMER DATA ANALYSIS
+Customer Segmentation and Marketing Recommendations
+
+1. PROJECT OBJECTIVE
+Analyze customer characteristics and spending scores to identify
+customer segments and propose suitable marketing strategies.
+
+2. DATASET OVERVIEW
+Total customer records: 200
+Total columns in original dataset: 5
+
+Variables analyzed:
+- Customer ID
+- Gender
+- Age
+- Annual Income
+- Spending Score
+
+3. CUSTOMER SEGMENTATION
+Customers were categorized using spending scores:
+- High Spender: score >= 70
+- Average Spender: score >= 40 and < 70
+- Low Spender: score < 40
+
+Customer counts by segment:
+Spending Segment
+Average Spender    87
+Low Spender        59
+High Spender       54
+
+4. SEGMENT PROFILE
+Average age, annual income, and spending score by segment:
+
+                  Customers  Avg_Age  Avg_Income  Avg_Spending
+Spending Segment                                              
+Average Spender          87    41.62       55.40         51.07
+High Spender             54    30.24       64.33         83.11
+Low Spender              59    42.64       64.71         18.80
+
+Largest segment by customer count: Average Spender
+Segment with highest average spending score: High Spender
+Segment with highest average annual income: Low Spender
+
+5. INCOME AND SPENDING RELATIONSHIP
+Pearson correlation between annual income and spending score:
+0.010
+
+This value describes the linear association in this dataset.
+It does not establish a causal relationship.
+
+6. MARKETING RECOMMENDATIONS
+High Spender:
+Offer loyalty rewards, exclusive benefits, and personalized
+premium promotions.
+
+Average Spender:
+Test product bundles, cross-selling, and targeted offers.
+
+Low Spender:
+Test affordable bundles, introductory offers, and relevant
+promotions to encourage engagement.
+
+7. CONCLUSION
+Customer segmentation provides a structured way to compare
+customers by spending score, age, and annual income. The results
+can help guide targeted marketing experiments.
+
+8. LIMITATIONS
+The dataset contains customer demographics, annual income, and
+spending scores, but not actual transaction histories or revenue.
+Therefore, customer lifetime value and actual purchasing behavior
+cannot be measured directly from these data.
+
+9. TOOLS USED
+Python, Pandas, NumPy, Matplotlib
